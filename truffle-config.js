@@ -14,8 +14,9 @@ module.exports = {
     mumbai: {
       provider: () => new HDWalletProvider(MNEMONIC, alchemyEndpoint),
       network_id: 80001,
-      gas: 1000000,
-      gasPrice: 1000000,
+      gas: 100000,
+      gasPrice: 4000000000000,
+                
     },
   },
 
