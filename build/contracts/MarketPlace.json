@@ -1,0 +1,117 @@
+{
+  "contractName": "MarketPlace",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MarketPlace.sol\":\"MarketPlace\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MarketPlace.sol\":{\"keccak256\":\"0x6b3ed448b516be81311739d187bae1294fd9dfa703049f9739841bbb5c9b4cfd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://394f42bbc446252b3f7d104600c96409139fd12465d74bee222c5dd09c44c85b\",\"dweb:/ipfs/QmcZvkv8MStzc8Xfoxfnby2GKtaTGzo93eqMkLHuHT5i2g\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b2c3be615f483052676b9a2091faa2e239014c44943c0fe59630980590905d3f64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b2c3be615f483052676b9a2091faa2e239014c44943c0fe59630980590905d3f64736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:53:0:-:0;;;91:26;;;;;;;;;;66:53;;;;;;",
+  "deployedSourceMap": "66:53:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract MarketPlace {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/robinfournier/Desktop/YNOV/Blockchain/Marketplace/Marketplace/contracts/MarketPlace.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MarketPlace.sol",
+    "exportedSymbols": {
+      "MarketPlace": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MarketPlace",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "MarketPlace",
+        "nameLocation": "75:11:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "112:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:0:0"
+            },
+            "scope": 6,
+            "src": "91:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:53:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:88:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-03-09T09:07:46.109Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
